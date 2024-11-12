@@ -16,6 +16,38 @@ body {
         opacity: 1;
     }
 }
+#navbar {
+    background-color: #242222;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 0 20px;
+}
+#navbar h1 {
+    color: white;
+    margin: 0;
+}
+#navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+#navbar li {
+    list-style: none;
+}
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+#navbar a:hover {
+    background-color: #0DA34E;
+}
 
 
                                     /* First div before hero section */
@@ -602,10 +634,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(https://th.bing.com/th/id/OIP.5K682gT-gheYYrl955ZmzAHaEK?w=298&h=180&c=7&r=0&o=5&pid=1.7);
-    background-position: center;
+    background-image: url(LA10.webp), url(LA12.webp);
+    background-position: center left;
     background-repeat: no-repeat;
-    background-size: 1350px;
+    background-size: 1500px;
     border-top: 1px solid gray;
 }
 .fifth-sec-div0 {
@@ -630,7 +662,7 @@ body {
     font-size: 120px;
     text-align: center;
     font-weight: 900px;
-    background-image: url(blob:https://www.lazarev.agency/0daf6375-3813-4bcc-a536-5c5d998ff192);
+    background-image: url(LA11.webp);
     background-repeat: no-repeat;
     background-size: 100px;
     background-position: 20px 15px;
@@ -917,6 +949,24 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    #navbar ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #242222;
+        padding: 10px;
+    }
+    #navbar ul.show {
+        display: flex;
+    }
+    #navbar .menu-toggle {
+        display: block;
+        cursor: pointer;
+        color: white;
+    }
     .footer-parent2 {
         display: flex;
         justify-content: center;
@@ -965,6 +1015,9 @@ body {
 
 
 @media only screen and (max-width: 425px) {
+    #navbar h1 {
+        font-size: 1.5rem;
+    }
     .copyright1 {
         display: flex;
         width: 90%;
@@ -975,4 +1028,3 @@ body {
     }
 
 }
-  

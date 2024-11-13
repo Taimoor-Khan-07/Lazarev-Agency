@@ -16,6 +16,7 @@ body {
         opacity: 1;
     }
 }
+
 #navbar {
     background-color: #242222;
     height: 60px;
@@ -634,10 +635,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(LA10.webp), url(LA12.webp);
-    background-position: center left;
+    background-image: url(https://th.bing.com/th/id/OIP.5K682gT-gheYYrl955ZmzAHaEK?w=298&h=180&c=7&r=0&o=5&pid=1.7);
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 1500px;
+    background-size: 1350px;
     border-top: 1px solid gray;
 }
 .fifth-sec-div0 {
@@ -662,10 +663,6 @@ body {
     font-size: 120px;
     text-align: center;
     font-weight: 900px;
-    background-image: url(LA11.webp);
-    background-repeat: no-repeat;
-    background-size: 100px;
-    background-position: 20px 15px;
 }   
 .fifth-sec-div2 {
     display: flex;

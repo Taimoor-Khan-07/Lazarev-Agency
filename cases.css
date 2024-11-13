@@ -27,9 +27,10 @@ body {
     top: 0;
     padding: 0 20px;
 }
-#navbar h1 {
+#navbar .logo {
     color: white;
     margin: 0;
+    font-size: 20px;
 }
 #navbar ul {
     display: flex;
@@ -48,6 +49,10 @@ body {
 }
 #navbar a:hover {
     background-color: #0DA34E;
+}
+#navbar a.logo:hover{
+    background-color: transparent;
+    text-decoration: none;
 }
 
 
